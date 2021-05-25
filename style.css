@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "KoHo", sans-serif;
+  background-image: url("img1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  position: sticky;
+  top: 1rem;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-e1{
+    text-align: center;
+}
+
+.countdown-e1 span{
+    font-size: 1.5rem;
+}
